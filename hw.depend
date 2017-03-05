@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1488640428 source:/home/dyl/hw/cdn.cpp
+	"deploy.h"
+	"lib_io.h"
+	"lib_time.h"
+	"stdio.h"
+
+1488640417 /home/dyl/hw/deploy.h
+	"lib_io.h"
+
+1488640435 /home/dyl/hw/lib_io.h
+
+1488640435 /home/dyl/hw/lib_time.h
+
+1488640412 source:/home/dyl/hw/deploy.cpp
+	"deploy.h"
+	<stdio.h>
+
+1488640422 source:/home/dyl/hw/io.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<time.h>
+	<sys/timeb.h>
+	<errno.h>
+	<unistd.h>
+	<signal.h>
+
